@@ -16,6 +16,7 @@ has_children: true
 
 * [binutils](https://packages.ubuntu.com/focal/binutils) / [filelist](https://packages.ubuntu.com/focal/amd64/binutils/filelist)
 * [binutils-common](https://packages.ubuntu.com/focal/binutils-common) / [filelist](https://packages.ubuntu.com/focal/amd64/binutils-common/filelist)
+* [binutils-doc](https://packages.ubuntu.com/focal/binutils-doc) / [filelist](https://packages.ubuntu.com/focal/all/binutils-doc/filelist)
 
 
 ## Manpage
