@@ -53,7 +53,7 @@ $ dpkg -L binutils-common | grep '/man/man.*/' | sort | awk -F '/' '{ print $6 }
 run
 
 ``` sh
-$ dpkg -L binutils-common | grep '/man/man.*/' | sort | awk -F '/' '{ print $6 }' |  awk -F '.1.gz' '{ print "* $ man 1 ["$1"](https://manpages.ubuntu.com/manpages/focal/en/man1/"$1".1.html" }'
+$ dpkg -L binutils-common | grep '/man/man.*/' | sort | awk -F '/' '{ print $6 }' |  awk -F '.1.gz' '{ print "* $ man 1 ["$1"](https://manpages.ubuntu.com/manpages/focal/en/man1/"$1".1.html)" }'
 ```
 
 ## Reference
